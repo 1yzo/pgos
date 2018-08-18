@@ -3,13 +3,13 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 
-const index = require('./routes/index');
 
 const app = express();
+const orders = require('./routes/orders');
 
 app.use(express.static(path.join(__dirname, '../client/build')));
 app.use(bodyParser.json());
-app.use('/api', index);
+app.use('/orders', orders);
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '../client/build/index.html'));

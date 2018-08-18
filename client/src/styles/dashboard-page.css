@@ -1,0 +1,13 @@
+.dashboard-page {
+    padding: 0 4rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.controls > * {
+    margin: 0 1rem;
+}

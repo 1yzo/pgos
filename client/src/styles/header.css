@@ -1,15 +1,45 @@
+.header__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);
+    margin-top: 2rem;
+}
+
 .header__container {
     display: flex;
+    align-items: center;
     margin: 2rem 0;
-    justify-content: space-between;
+    width: 100%;
+    position: relative;
 }
 
 .header__date {
     background: #eee;
-    padding: 1rem;
+    padding: 1rem 2rem;
     text-align: center;
+    margin-right: 2rem;
+}
+
+.header__date__month {
+    font-weight: 501;
 }
 
 .header__date__day {
     font-size: 3rem;
+}
+
+.header__subtitle {
+    font-size: 3rem;
+    color: rgb(99, 99, 99);
+}
+
+.header__button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #01a1dd;
+    color: rgb(247, 242, 242);
+    border: none;
+    padding: 1rem 2rem;;
 }

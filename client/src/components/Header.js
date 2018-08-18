@@ -9,7 +9,7 @@ class Header extends React.Component {
                 <div className="header__title">BLUE BOTTLE COFFEE</div>
                 <div className="header__container">
                     <div className="header__date">
-                        <div>{moment().format('MMM').toUpperCase()}</div>
+                        <div className="header__date__month">{moment().format('MMM').toUpperCase()}</div>
                         <div className="header__date__day">{moment().format('DD')}</div>
                     </div>
                     <div className="header__subtitle">Perfectly Ground Work Orders</div>
