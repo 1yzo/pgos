@@ -1,0 +1,15 @@
+.header__container {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.header__date {
+    background: #eee;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header__date__day {
+    font-size: 3rem;
+}

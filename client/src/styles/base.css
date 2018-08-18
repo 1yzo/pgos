@@ -12,18 +12,14 @@ body {
     overflow-x: hidden;
 }
 
-button {
+/* button {
     cursor: pointer;
 }
 
 button[disabled] {
     cursor: not-allowed;
-}
+} */
 
-#app {
+/* #app {
     height: 100%;
-}
-
-/* * {
-    -webkit-overflow-scrolling: touch;
-}  */
+} */
