@@ -49,8 +49,14 @@ class OrderPage extends React.Component {
                     <div>Order</div>
                     <div>View</div>
                 </div>
-                {orders.map((order, i) => <OrderCard key={order._id} selectOrder={this.selectOrder} index={i} order={order} />)}
-                <ViewOrderModal showModal={!!this.state.selectedOrder} closeModal={this.closeModal} order={this.state.selectedOrder}/>
+                {orders.map((order, i) => (
+                    <OrderCard key={order._id} selectOrder={this.selectOrder} index={i} order={order} />)
+                )}
+                <ViewOrderModal
+                    showModal={!!this.state.selectedOrder}
+                    closeModal={this.closeModal}
+                    order={this.state.selectedOrder}
+                />
             </div>
         );
     }

@@ -28,7 +28,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "ariaHideApp": true,
+      "ariaHideApp": false,
       "bodyOpenClassName": "ReactModal__Body--open",
       "children": Array [
         <div
@@ -444,7 +444,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "ariaHideApp": true,
+        "ariaHideApp": false,
         "bodyOpenClassName": "ReactModal__Body--open",
         "children": Array [
           <div

@@ -27,20 +27,7 @@ export class CreateOrderForm extends React.Component {
         e.preventDefault();
         const order = this.state;
         if (this.state.name && this.state.brewMethod && this.state.shipDate && this.state.cases && this.state.packetsPerCase) {
-            fetch('/orders/', {
-                method: 'POST',
-                body: JSON.stringify({ ...order, shipDate: moment(this.state.shipDate).valueOf() }),
-                headers: { 'content-type': 'application/json' }
-            })
-                .then(() => {
-                    this.props.dispatch(startSetPageCount());
-                })
-                .then(() => {
-                    if (this.props.currentPageIndex !== this.props.pageCount) {
-                        this.props.dispatch(startSetPage(this.props.currentPageIndex))
-                            .then(() => this.props.closeModal());
-                    }
-                });
+            this.props.submitOrder(order, this.props.currentPageIndex, this.props.pageCount);
         } 
     }
 
@@ -135,10 +122,22 @@ const mapStateToProps = (state) => ({
     pageCount: state.pageCount
 });
 
-const mapDispatchToProps = (dispatch) => ({
-    submitOrder: (order) => {
-        
+const mapDispatchToProps = (dispatch, props) => ({
+    submitOrder: (order, currentPageIndex, pageCount) => {
+        fetch('/orders/', {
+            method: 'POST',
+            body: JSON.stringify({ ...order, shipDate: moment(order.shipDate).valueOf() }),
+            headers: { 'content-type': 'application/json' }
+        })
+            .then(() => {
+                dispatch(startSetPageCount()); 
+            })
+            .then(() => {
+                dispatch(startSetPage(currentPageIndex))
+                    .then(() => props.closeModal());
+            });
     }
 });
 
-export default connect(mapStateToProps)(CreateOrderForm);
+
+export default connect(mapStateToProps, mapDispatchToProps)(CreateOrderForm);

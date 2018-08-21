@@ -6,7 +6,10 @@ export const PageNumberLink = ({ index, pageCount, currentPageIndex }) => {
     if (index < pageCount) {
         return (
             <div >
-                <Link className={"page-link" + (Number(currentPageIndex) === index ? ' page-link--active' : '')}to={`/orders/${index}`}>{index}</Link>
+                <Link 
+                    className={"page-link" + (Number(currentPageIndex) === index ? ' page-link--active' : '')}
+                    to={`/orders/${index}`}>{index}
+                </Link>
             </div>
         );
     } else return null;

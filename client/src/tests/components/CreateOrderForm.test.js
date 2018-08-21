@@ -66,12 +66,12 @@ test('should set notes on textarea change', () => {
     expect(wrapper.state('notes')).toBe(value);
 });
 
-// test('should clear form after successful form submit', () => {
-//     const closeModal = jest.fn();
-//     const wrapper = shallow(<CreateOrderForm closeModal={closeModal} />);
-//     wrapper.setState({ ...ordersFixture[0] });
-//     wrapper.find('form').simulate('submit', {
-//         preventDefault: () => { }
-//     });
-//     expect(closeModal).toHaveBeenCalled();
-// });
+test('should clear form after successful form submit', () => {
+    const submitOrder = jest.fn();
+    const wrapper = shallow(<CreateOrderForm submitOrder={submitOrder}/>);
+    wrapper.setState({ ...ordersFixture[0] });
+    wrapper.find('form').simulate('submit', {
+        preventDefault: () => { }
+    });
+    expect(submitOrder).toHaveBeenCalled();
+});

@@ -10,6 +10,7 @@ class ViewOrderModal extends React.Component {
             <ReactModal
                 className="order-view"
                 isOpen={this.props.showModal}
+                ariaHideApp={false}
             >
                 <div className="exit" onClick={() => this.props.closeModal()}>X</div>
                 <div className="order-view__section">
