@@ -5,9 +5,17 @@
 .controls {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    align-items: center;
+    margin: 3rem 0;
 }
 
-.controls > * {
-    margin: 0 1rem;
+.page-link {
+    padding: 1rem 1.5rem;
+    border: 1px solid rgb(230, 230, 230);
+    color: #01a1dd;
+}
+
+.page-link--active {
+    background: #01a1dd;
+    color: white;
 }

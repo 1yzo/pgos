@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render OrderCard correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OrderCard
+    order={
+        Object {
+            "brewMethod": "Cold Brew",
+            "cases": 5,
+            "name": "Giant Steps",
+            "notes": "Test notes",
+            "packetsPerCase": 25,
+            "priority": true,
+            "shipDate": 10,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          Giant Steps
+</div>,
+        <div>
+          Cold Brew
+</div>,
+        <div>
+          5
+</div>,
+        <div>
+          25
+</div>,
+        <div
+          className="order-card__date"
+>
+          <div>
+                    12/31/1969
+          </div>
+          <div
+                    className="order-card__star"
+          >
+                    *
+          </div>
+</div>,
+        <div
+          className="order-card__number"
+>
+          #57120
+</div>,
+        <i
+          className="material-icons"
+          onClick={[Function]}
+>
+          remove_red_eye
+</i>,
+      ],
+      "className": "order-card",
+      "style": Object {
+        "background": "#eee",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Giant Steps",
+        },
+        "ref": null,
+        "rendered": "Giant Steps",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Cold Brew",
+        },
+        "ref": null,
+        "rendered": "Cold Brew",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 5,
+        },
+        "ref": null,
+        "rendered": 5,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 25,
+        },
+        "ref": null,
+        "rendered": 25,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              12/31/1969
+</div>,
+            <div
+              className="order-card__star"
+>
+              *
+</div>,
+          ],
+          "className": "order-card__date",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "12/31/1969",
+            },
+            "ref": null,
+            "rendered": "12/31/1969",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "*",
+              "className": "order-card__star",
+            },
+            "ref": null,
+            "rendered": "*",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "#57120",
+          "className": "order-card__number",
+        },
+        "ref": null,
+        "rendered": "#57120",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "remove_red_eye",
+          "className": "material-icons",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "remove_red_eye",
+        "type": "i",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            Giant Steps
+</div>,
+          <div>
+            Cold Brew
+</div>,
+          <div>
+            5
+</div>,
+          <div>
+            25
+</div>,
+          <div
+            className="order-card__date"
+>
+            <div>
+                        12/31/1969
+            </div>
+            <div
+                        className="order-card__star"
+            >
+                        *
+            </div>
+</div>,
+          <div
+            className="order-card__number"
+>
+            #57120
+</div>,
+          <i
+            className="material-icons"
+            onClick={[Function]}
+>
+            remove_red_eye
+</i>,
+        ],
+        "className": "order-card",
+        "style": Object {
+          "background": "#eee",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Giant Steps",
+          },
+          "ref": null,
+          "rendered": "Giant Steps",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Cold Brew",
+          },
+          "ref": null,
+          "rendered": "Cold Brew",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 5,
+          },
+          "ref": null,
+          "rendered": 5,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 25,
+          },
+          "ref": null,
+          "rendered": 25,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                12/31/1969
+</div>,
+              <div
+                className="order-card__star"
+>
+                *
+</div>,
+            ],
+            "className": "order-card__date",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "12/31/1969",
+              },
+              "ref": null,
+              "rendered": "12/31/1969",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "*",
+                "className": "order-card__star",
+              },
+              "ref": null,
+              "rendered": "*",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "#57120",
+            "className": "order-card__number",
+          },
+          "ref": null,
+          "rendered": "#57120",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "remove_red_eye",
+            "className": "material-icons",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "remove_red_eye",
+          "type": "i",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

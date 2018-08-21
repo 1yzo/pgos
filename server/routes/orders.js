@@ -14,9 +14,14 @@ router.get('/', (req, res) => {
 
 });
 
+router.get('/length', (req, res) => {
+    Order.count({})
+        .then((count) => res.json(count))
+        .catch((err) => res.status(500).send(err));
+});
+
 // CREATE
 router.post('/', (req, res) => {
-    console.log(req.body)
     const order = new Order({ ...req.body });
 
     order.save()

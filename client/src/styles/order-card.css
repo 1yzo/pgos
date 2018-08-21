@@ -38,4 +38,5 @@
 
 .order-card > i {
     color: #01a1dd;
+    cursor: pointer;
 }

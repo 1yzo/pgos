@@ -1,0 +1,33 @@
+.order-view {
+    min-width: 30rem;
+    padding: 3rem;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 3px rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+}
+
+.order-view__label {
+    color: rgb(83, 83, 83);
+    font-size: 2rem;    
+}
+
+.order-view__info {
+    color: rgb(143, 143, 143);
+}
+
+.order-view__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.order-view__label--notes {
+    align-self: start;
+    margin-right: 16rem;
+}

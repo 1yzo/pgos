@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header__title"
+>
+          BLUE BOTTLE COFFEE
+</div>,
+        <div
+          className="header__container"
+>
+          <div
+                    className="header__date"
+          >
+                    <div
+                              className="header__date__month"
+                    >
+                              DEC
+                    </div>
+                    <div
+                              className="header__date__day"
+                    >
+                              31
+                    </div>
+          </div>
+          <div
+                    className="header__subtitle"
+          >
+                    Perfectly Ground Work Orders
+          </div>
+          <button
+                    className="header__button"
+                    onClick={[Function]}
+          >
+                    CREATE ORDER
+          </button>
+</div>,
+        <Connect(CreateOrderForm)
+          closeModal={[Function]}
+          showModal={false}
+/>,
+      ],
+      "className": "header",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "BLUE BOTTLE COFFEE",
+          "className": "header__title",
+        },
+        "ref": null,
+        "rendered": "BLUE BOTTLE COFFEE",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="header__date"
+>
+              <div
+                            className="header__date__month"
+              >
+                            DEC
+              </div>
+              <div
+                            className="header__date__day"
+              >
+                            31
+              </div>
+</div>,
+            <div
+              className="header__subtitle"
+>
+              Perfectly Ground Work Orders
+</div>,
+            <button
+              className="header__button"
+              onClick={[Function]}
+>
+              CREATE ORDER
+</button>,
+          ],
+          "className": "header__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="header__date__month"
+>
+                  DEC
+</div>,
+                <div
+                  className="header__date__day"
+>
+                  31
+</div>,
+              ],
+              "className": "header__date",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "DEC",
+                  "className": "header__date__month",
+                },
+                "ref": null,
+                "rendered": "DEC",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "31",
+                  "className": "header__date__day",
+                },
+                "ref": null,
+                "rendered": "31",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Perfectly Ground Work Orders",
+              "className": "header__subtitle",
+            },
+            "ref": null,
+            "rendered": "Perfectly Ground Work Orders",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "CREATE ORDER",
+              "className": "header__button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "CREATE ORDER",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "closeModal": [Function],
+          "showModal": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header__title"
+>
+            BLUE BOTTLE COFFEE
+</div>,
+          <div
+            className="header__container"
+>
+            <div
+                        className="header__date"
+            >
+                        <div
+                                    className="header__date__month"
+                        >
+                                    DEC
+                        </div>
+                        <div
+                                    className="header__date__day"
+                        >
+                                    31
+                        </div>
+            </div>
+            <div
+                        className="header__subtitle"
+            >
+                        Perfectly Ground Work Orders
+            </div>
+            <button
+                        className="header__button"
+                        onClick={[Function]}
+            >
+                        CREATE ORDER
+            </button>
+</div>,
+          <Connect(CreateOrderForm)
+            closeModal={[Function]}
+            showModal={false}
+/>,
+        ],
+        "className": "header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BLUE BOTTLE COFFEE",
+            "className": "header__title",
+          },
+          "ref": null,
+          "rendered": "BLUE BOTTLE COFFEE",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="header__date"
+>
+                <div
+                                className="header__date__month"
+                >
+                                DEC
+                </div>
+                <div
+                                className="header__date__day"
+                >
+                                31
+                </div>
+</div>,
+              <div
+                className="header__subtitle"
+>
+                Perfectly Ground Work Orders
+</div>,
+              <button
+                className="header__button"
+                onClick={[Function]}
+>
+                CREATE ORDER
+</button>,
+            ],
+            "className": "header__container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="header__date__month"
+>
+                    DEC
+</div>,
+                  <div
+                    className="header__date__day"
+>
+                    31
+</div>,
+                ],
+                "className": "header__date",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "DEC",
+                    "className": "header__date__month",
+                  },
+                  "ref": null,
+                  "rendered": "DEC",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "31",
+                    "className": "header__date__day",
+                  },
+                  "ref": null,
+                  "rendered": "31",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Perfectly Ground Work Orders",
+                "className": "header__subtitle",
+              },
+              "ref": null,
+              "rendered": "Perfectly Ground Work Orders",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "CREATE ORDER",
+                "className": "header__button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "CREATE ORDER",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "closeModal": [Function],
+            "showModal": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

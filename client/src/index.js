@@ -6,6 +6,7 @@ import 'normalize.css/normalize.css';
 import './styles/base.css';
 import App from './components/App';
 import configureStore from './store/configureStore';
+import { startSetPageCount } from './actions/pageCount';
 
 const store = configureStore();
 
@@ -15,5 +16,8 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(jsx, document.getElementById('root'));
-registerServiceWorker();
+store.dispatch(startSetPageCount()).then(() => {
+    ReactDOM.render(jsx, document.getElementById('root'));
+    registerServiceWorker();
+})
+

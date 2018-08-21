@@ -1,0 +1,874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ViewOrderModal correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ViewOrderModal
+    order={
+        Object {
+            "brewMethod": "Cold Brew",
+            "cases": 5,
+            "name": "Giant Steps",
+            "notes": "Test notes",
+            "packetsPerCase": 25,
+            "priority": true,
+            "shipDate": 10,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ariaHideApp": true,
+      "bodyOpenClassName": "ReactModal__Body--open",
+      "children": Array [
+        <div
+          className="exit"
+          onClick={[Function]}
+>
+          X
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label"
+          >
+                    Coffee
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    Giant Steps
+          </div>
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label"
+          >
+                    Brew Method
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    Cold Brew
+          </div>
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label"
+          >
+                    Ship Date
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    12/31/1969
+          </div>
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label"
+          >
+                    Number of Cases
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    5
+          </div>
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label"
+          >
+                    Packets per Case
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    25
+          </div>
+</div>,
+        <div
+          className="order-view__section"
+>
+          <div
+                    className="order-view__label order-view__label--notes"
+          >
+                    Notes
+          </div>
+          <div
+                    className="order-view__info"
+          >
+                    Test notes
+          </div>
+</div>,
+      ],
+      "className": "order-view",
+      "closeTimeoutMS": 0,
+      "isOpen": false,
+      "parentSelector": [Function],
+      "portalClassName": "ReactModalPortal",
+      "shouldCloseOnEsc": true,
+      "shouldCloseOnOverlayClick": true,
+      "shouldFocusAfterRender": true,
+      "shouldReturnFocusAfterClose": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "X",
+          "className": "exit",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "X",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label"
+>
+              Coffee
+</div>,
+            <div
+              className="order-view__info"
+>
+              Giant Steps
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Coffee",
+              "className": "order-view__label",
+            },
+            "ref": null,
+            "rendered": "Coffee",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Giant Steps",
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": "Giant Steps",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label"
+>
+              Brew Method
+</div>,
+            <div
+              className="order-view__info"
+>
+              Cold Brew
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Brew Method",
+              "className": "order-view__label",
+            },
+            "ref": null,
+            "rendered": "Brew Method",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cold Brew",
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": "Cold Brew",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label"
+>
+              Ship Date
+</div>,
+            <div
+              className="order-view__info"
+>
+              12/31/1969
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ship Date",
+              "className": "order-view__label",
+            },
+            "ref": null,
+            "rendered": "Ship Date",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "12/31/1969",
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": "12/31/1969",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label"
+>
+              Number of Cases
+</div>,
+            <div
+              className="order-view__info"
+>
+              5
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Number of Cases",
+              "className": "order-view__label",
+            },
+            "ref": null,
+            "rendered": "Number of Cases",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 5,
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label"
+>
+              Packets per Case
+</div>,
+            <div
+              className="order-view__info"
+>
+              25
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Packets per Case",
+              "className": "order-view__label",
+            },
+            "ref": null,
+            "rendered": "Packets per Case",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 25,
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": 25,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="order-view__label order-view__label--notes"
+>
+              Notes
+</div>,
+            <div
+              className="order-view__info"
+>
+              Test notes
+</div>,
+          ],
+          "className": "order-view__section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Notes",
+              "className": "order-view__label order-view__label--notes",
+            },
+            "ref": null,
+            "rendered": "Notes",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test notes",
+              "className": "order-view__info",
+            },
+            "ref": null,
+            "rendered": "Test notes",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ariaHideApp": true,
+        "bodyOpenClassName": "ReactModal__Body--open",
+        "children": Array [
+          <div
+            className="exit"
+            onClick={[Function]}
+>
+            X
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label"
+            >
+                        Coffee
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        Giant Steps
+            </div>
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label"
+            >
+                        Brew Method
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        Cold Brew
+            </div>
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label"
+            >
+                        Ship Date
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        12/31/1969
+            </div>
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label"
+            >
+                        Number of Cases
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        5
+            </div>
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label"
+            >
+                        Packets per Case
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        25
+            </div>
+</div>,
+          <div
+            className="order-view__section"
+>
+            <div
+                        className="order-view__label order-view__label--notes"
+            >
+                        Notes
+            </div>
+            <div
+                        className="order-view__info"
+            >
+                        Test notes
+            </div>
+</div>,
+        ],
+        "className": "order-view",
+        "closeTimeoutMS": 0,
+        "isOpen": false,
+        "parentSelector": [Function],
+        "portalClassName": "ReactModalPortal",
+        "shouldCloseOnEsc": true,
+        "shouldCloseOnOverlayClick": true,
+        "shouldFocusAfterRender": true,
+        "shouldReturnFocusAfterClose": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "X",
+            "className": "exit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "X",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label"
+>
+                Coffee
+</div>,
+              <div
+                className="order-view__info"
+>
+                Giant Steps
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Coffee",
+                "className": "order-view__label",
+              },
+              "ref": null,
+              "rendered": "Coffee",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Giant Steps",
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": "Giant Steps",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label"
+>
+                Brew Method
+</div>,
+              <div
+                className="order-view__info"
+>
+                Cold Brew
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Brew Method",
+                "className": "order-view__label",
+              },
+              "ref": null,
+              "rendered": "Brew Method",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cold Brew",
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": "Cold Brew",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label"
+>
+                Ship Date
+</div>,
+              <div
+                className="order-view__info"
+>
+                12/31/1969
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ship Date",
+                "className": "order-view__label",
+              },
+              "ref": null,
+              "rendered": "Ship Date",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "12/31/1969",
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": "12/31/1969",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label"
+>
+                Number of Cases
+</div>,
+              <div
+                className="order-view__info"
+>
+                5
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Number of Cases",
+                "className": "order-view__label",
+              },
+              "ref": null,
+              "rendered": "Number of Cases",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 5,
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label"
+>
+                Packets per Case
+</div>,
+              <div
+                className="order-view__info"
+>
+                25
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Packets per Case",
+                "className": "order-view__label",
+              },
+              "ref": null,
+              "rendered": "Packets per Case",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 25,
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": 25,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-view__label order-view__label--notes"
+>
+                Notes
+</div>,
+              <div
+                className="order-view__info"
+>
+                Test notes
+</div>,
+            ],
+            "className": "order-view__section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Notes",
+                "className": "order-view__label order-view__label--notes",
+              },
+              "ref": null,
+              "rendered": "Notes",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test notes",
+                "className": "order-view__info",
+              },
+              "ref": null,
+              "rendered": "Test notes",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

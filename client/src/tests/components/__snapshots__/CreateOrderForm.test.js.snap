@@ -1,0 +1,2256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render CreateOrderForm correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CreateOrderForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ariaHideApp": false,
+      "bodyOpenClassName": "ReactModal__Body--open",
+      "children": <form
+        className="order-form__form"
+        onSubmit={[Function]}
+>
+        <div
+                className="exit"
+                onClick={[Function]}
+        >
+                X
+        </div>
+        <div
+                className="order-form__info"
+        >
+                Perfectly Ground Work Orders
+        </div>
+        <div
+                className="order-form__sub-info"
+        >
+                Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad
+        </div>
+        <div
+                className="order-form__container"
+        >
+                <div
+                        className="order-form__section"
+                >
+                        <label>
+                                Coffee
+                        </label>
+                        <input
+                                id="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                        />
+                </div>
+                <div
+                        className="order-form__section"
+                >
+                        <label>
+                                Brew Method
+                        </label>
+                        <select
+                                id="brewMethod"
+                                onChange={[Function]}
+                        >
+                                <option
+                                        value=""
+                                >
+                                        Choose One
+                                </option>
+                                <option
+                                        value="Aeropress"
+                                >
+                                        Aeropress
+                                </option>
+                                <option
+                                        value="Coffee Maker"
+                                >
+                                        Coffee Maker
+                                </option>
+                                <option
+                                        value="Cold Brew"
+                                >
+                                        Cold Brew
+                                </option>
+                                <option
+                                        value="French Press"
+                                >
+                                        French Press
+                                </option>
+                                <option
+                                        value="Pour Over"
+                                >
+                                        Pour Over
+                                </option>
+                        </select>
+                </div>
+        </div>
+        <div
+                className="order-form__container"
+        >
+                <div
+                        className="order-form__section"
+                >
+                        <label>
+                                Ship Date
+                        </label>
+                        <DayPickerInput
+                                classNames={
+                                        Object {
+                                                "container": "DayPickerInput",
+                                                "overlay": "DayPickerInput-Overlay",
+                                                "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                              }
+                                }
+                                clickUnselectsDay={false}
+                                component="input"
+                                dayPickerProps={Object {}}
+                                format="L"
+                                formatDate={[Function]}
+                                hideOnDayClick={true}
+                                inputProps={Object {}}
+                                keepFocus={true}
+                                onDayChange={[Function]}
+                                overlayComponent={[Function]}
+                                parseDate={[Function]}
+                                placeholder="YYYY-M-D"
+                                showOverlay={false}
+                                value={1970-01-01T00:00:00.000Z}
+                        />
+                </div>
+                <div
+                        className="order-form__section"
+                >
+                        <label>
+                                Number of Cases
+                        </label>
+                        <input
+                                id="cases"
+                                onChange={[Function]}
+                                placeholder="#"
+                                type="text"
+                                value=""
+                        />
+                </div>
+                <div
+                        className="order-form__section"
+                >
+                        <label>
+                                Packets per Case
+                        </label>
+                        <select
+                                id="packetsPerCase"
+                                onChange={[Function]}
+                        >
+                                <option
+                                        value={25}
+                                >
+                                        25
+                                </option>
+                                <option
+                                        value={50}
+                                >
+                                        50
+                                </option>
+                        </select>
+                </div>
+        </div>
+        <label>
+                Notes
+        </label>
+        <textarea
+                id="notes"
+                onChange={[Function]}
+                value=""
+        />
+        <div
+                style={
+                        Object {
+                                "marginBottom": "2rem",
+                              }
+                }
+        >
+                <input
+                        id="priority"
+                        onChange={[Function]}
+                        type="checkbox"
+                />
+                <label
+                        htmlFor="priority"
+                >
+                        Priority
+                </label>
+        </div>
+        <button>
+                Submit Work Order
+        </button>
+</form>,
+      "className": "order-form",
+      "closeTimeoutMS": 300,
+      "contentLabel": "Modal",
+      "isOpen": false,
+      "parentSelector": [Function],
+      "portalClassName": "ReactModalPortal",
+      "shouldCLoseOnOverlayClick": true,
+      "shouldCloseOnEsc": true,
+      "shouldCloseOnOverlayClick": true,
+      "shouldFocusAfterRender": true,
+      "shouldReturnFocusAfterClose": true,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="exit"
+            onClick={[Function]}
+>
+            X
+</div>,
+          <div
+            className="order-form__info"
+>
+            Perfectly Ground Work Orders
+</div>,
+          <div
+            className="order-form__sub-info"
+>
+            Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad
+</div>,
+          <div
+            className="order-form__container"
+>
+            <div
+                        className="order-form__section"
+            >
+                        <label>
+                                    Coffee
+                        </label>
+                        <input
+                                    id="name"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value=""
+                        />
+            </div>
+            <div
+                        className="order-form__section"
+            >
+                        <label>
+                                    Brew Method
+                        </label>
+                        <select
+                                    id="brewMethod"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                value=""
+                                    >
+                                                Choose One
+                                    </option>
+                                    <option
+                                                value="Aeropress"
+                                    >
+                                                Aeropress
+                                    </option>
+                                    <option
+                                                value="Coffee Maker"
+                                    >
+                                                Coffee Maker
+                                    </option>
+                                    <option
+                                                value="Cold Brew"
+                                    >
+                                                Cold Brew
+                                    </option>
+                                    <option
+                                                value="French Press"
+                                    >
+                                                French Press
+                                    </option>
+                                    <option
+                                                value="Pour Over"
+                                    >
+                                                Pour Over
+                                    </option>
+                        </select>
+            </div>
+</div>,
+          <div
+            className="order-form__container"
+>
+            <div
+                        className="order-form__section"
+            >
+                        <label>
+                                    Ship Date
+                        </label>
+                        <DayPickerInput
+                                    classNames={
+                                                Object {
+                                                            "container": "DayPickerInput",
+                                                            "overlay": "DayPickerInput-Overlay",
+                                                            "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                          }
+                                    }
+                                    clickUnselectsDay={false}
+                                    component="input"
+                                    dayPickerProps={Object {}}
+                                    format="L"
+                                    formatDate={[Function]}
+                                    hideOnDayClick={true}
+                                    inputProps={Object {}}
+                                    keepFocus={true}
+                                    onDayChange={[Function]}
+                                    overlayComponent={[Function]}
+                                    parseDate={[Function]}
+                                    placeholder="YYYY-M-D"
+                                    showOverlay={false}
+                                    value={1970-01-01T00:00:00.000Z}
+                        />
+            </div>
+            <div
+                        className="order-form__section"
+            >
+                        <label>
+                                    Number of Cases
+                        </label>
+                        <input
+                                    id="cases"
+                                    onChange={[Function]}
+                                    placeholder="#"
+                                    type="text"
+                                    value=""
+                        />
+            </div>
+            <div
+                        className="order-form__section"
+            >
+                        <label>
+                                    Packets per Case
+                        </label>
+                        <select
+                                    id="packetsPerCase"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                value={25}
+                                    >
+                                                25
+                                    </option>
+                                    <option
+                                                value={50}
+                                    >
+                                                50
+                                    </option>
+                        </select>
+            </div>
+</div>,
+          <label>
+            Notes
+</label>,
+          <textarea
+            id="notes"
+            onChange={[Function]}
+            value=""
+/>,
+          <div
+            style={
+                        Object {
+                                    "marginBottom": "2rem",
+                                  }
+            }
+>
+            <input
+                        id="priority"
+                        onChange={[Function]}
+                        type="checkbox"
+            />
+            <label
+                        htmlFor="priority"
+            >
+                        Priority
+            </label>
+</div>,
+          <button>
+            Submit Work Order
+</button>,
+        ],
+        "className": "order-form__form",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "X",
+            "className": "exit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "X",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Perfectly Ground Work Orders",
+            "className": "order-form__info",
+          },
+          "ref": null,
+          "rendered": "Perfectly Ground Work Orders",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad",
+            "className": "order-form__sub-info",
+          },
+          "ref": null,
+          "rendered": "Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-form__section"
+>
+                <label>
+                                Coffee
+                </label>
+                <input
+                                id="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                />
+</div>,
+              <div
+                className="order-form__section"
+>
+                <label>
+                                Brew Method
+                </label>
+                <select
+                                id="brewMethod"
+                                onChange={[Function]}
+                >
+                                <option
+                                                value=""
+                                >
+                                                Choose One
+                                </option>
+                                <option
+                                                value="Aeropress"
+                                >
+                                                Aeropress
+                                </option>
+                                <option
+                                                value="Coffee Maker"
+                                >
+                                                Coffee Maker
+                                </option>
+                                <option
+                                                value="Cold Brew"
+                                >
+                                                Cold Brew
+                                </option>
+                                <option
+                                                value="French Press"
+                                >
+                                                French Press
+                                </option>
+                                <option
+                                                value="Pour Over"
+                                >
+                                                Pour Over
+                                </option>
+                </select>
+</div>,
+            ],
+            "className": "order-form__container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Coffee
+</label>,
+                  <input
+                    id="name"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+/>,
+                ],
+                "className": "order-form__section",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Coffee",
+                  },
+                  "ref": null,
+                  "rendered": "Coffee",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "name",
+                    "onChange": [Function],
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Brew Method
+</label>,
+                  <select
+                    id="brewMethod"
+                    onChange={[Function]}
+>
+                    <option
+                                        value=""
+                    >
+                                        Choose One
+                    </option>
+                    <option
+                                        value="Aeropress"
+                    >
+                                        Aeropress
+                    </option>
+                    <option
+                                        value="Coffee Maker"
+                    >
+                                        Coffee Maker
+                    </option>
+                    <option
+                                        value="Cold Brew"
+                    >
+                                        Cold Brew
+                    </option>
+                    <option
+                                        value="French Press"
+                    >
+                                        French Press
+                    </option>
+                    <option
+                                        value="Pour Over"
+                    >
+                                        Pour Over
+                    </option>
+</select>,
+                ],
+                "className": "order-form__section",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Brew Method",
+                  },
+                  "ref": null,
+                  "rendered": "Brew Method",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value=""
+>
+                        Choose One
+</option>,
+                      <option
+                        value="Aeropress"
+>
+                        Aeropress
+</option>,
+                      <option
+                        value="Coffee Maker"
+>
+                        Coffee Maker
+</option>,
+                      <option
+                        value="Cold Brew"
+>
+                        Cold Brew
+</option>,
+                      <option
+                        value="French Press"
+>
+                        French Press
+</option>,
+                      <option
+                        value="Pour Over"
+>
+                        Pour Over
+</option>,
+                    ],
+                    "id": "brewMethod",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Choose One",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": "Choose One",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Aeropress",
+                        "value": "Aeropress",
+                      },
+                      "ref": null,
+                      "rendered": "Aeropress",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Coffee Maker",
+                        "value": "Coffee Maker",
+                      },
+                      "ref": null,
+                      "rendered": "Coffee Maker",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Cold Brew",
+                        "value": "Cold Brew",
+                      },
+                      "ref": null,
+                      "rendered": "Cold Brew",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "French Press",
+                        "value": "French Press",
+                      },
+                      "ref": null,
+                      "rendered": "French Press",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Pour Over",
+                        "value": "Pour Over",
+                      },
+                      "ref": null,
+                      "rendered": "Pour Over",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="order-form__section"
+>
+                <label>
+                                Ship Date
+                </label>
+                <DayPickerInput
+                                classNames={
+                                                Object {
+                                                                "container": "DayPickerInput",
+                                                                "overlay": "DayPickerInput-Overlay",
+                                                                "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                              }
+                                }
+                                clickUnselectsDay={false}
+                                component="input"
+                                dayPickerProps={Object {}}
+                                format="L"
+                                formatDate={[Function]}
+                                hideOnDayClick={true}
+                                inputProps={Object {}}
+                                keepFocus={true}
+                                onDayChange={[Function]}
+                                overlayComponent={[Function]}
+                                parseDate={[Function]}
+                                placeholder="YYYY-M-D"
+                                showOverlay={false}
+                                value={1970-01-01T00:00:00.000Z}
+                />
+</div>,
+              <div
+                className="order-form__section"
+>
+                <label>
+                                Number of Cases
+                </label>
+                <input
+                                id="cases"
+                                onChange={[Function]}
+                                placeholder="#"
+                                type="text"
+                                value=""
+                />
+</div>,
+              <div
+                className="order-form__section"
+>
+                <label>
+                                Packets per Case
+                </label>
+                <select
+                                id="packetsPerCase"
+                                onChange={[Function]}
+                >
+                                <option
+                                                value={25}
+                                >
+                                                25
+                                </option>
+                                <option
+                                                value={50}
+                                >
+                                                50
+                                </option>
+                </select>
+</div>,
+            ],
+            "className": "order-form__container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Ship Date
+</label>,
+                  <DayPickerInput
+                    classNames={
+                                        Object {
+                                                            "container": "DayPickerInput",
+                                                            "overlay": "DayPickerInput-Overlay",
+                                                            "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                          }
+                    }
+                    clickUnselectsDay={false}
+                    component="input"
+                    dayPickerProps={Object {}}
+                    format="L"
+                    formatDate={[Function]}
+                    hideOnDayClick={true}
+                    inputProps={Object {}}
+                    keepFocus={true}
+                    onDayChange={[Function]}
+                    overlayComponent={[Function]}
+                    parseDate={[Function]}
+                    placeholder="YYYY-M-D"
+                    showOverlay={false}
+                    value={1970-01-01T00:00:00.000Z}
+/>,
+                ],
+                "className": "order-form__section",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Ship Date",
+                  },
+                  "ref": null,
+                  "rendered": "Ship Date",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "classNames": Object {
+                      "container": "DayPickerInput",
+                      "overlay": "DayPickerInput-Overlay",
+                      "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                    },
+                    "clickUnselectsDay": false,
+                    "component": "input",
+                    "dayPickerProps": Object {},
+                    "format": "L",
+                    "formatDate": [Function],
+                    "hideOnDayClick": true,
+                    "inputProps": Object {},
+                    "keepFocus": true,
+                    "onDayChange": [Function],
+                    "overlayComponent": [Function],
+                    "parseDate": [Function],
+                    "placeholder": "YYYY-M-D",
+                    "showOverlay": false,
+                    "value": 1970-01-01T00:00:00.000Z,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Number of Cases
+</label>,
+                  <input
+                    id="cases"
+                    onChange={[Function]}
+                    placeholder="#"
+                    type="text"
+                    value=""
+/>,
+                ],
+                "className": "order-form__section",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Number of Cases",
+                  },
+                  "ref": null,
+                  "rendered": "Number of Cases",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "cases",
+                    "onChange": [Function],
+                    "placeholder": "#",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Packets per Case
+</label>,
+                  <select
+                    id="packetsPerCase"
+                    onChange={[Function]}
+>
+                    <option
+                                        value={25}
+                    >
+                                        25
+                    </option>
+                    <option
+                                        value={50}
+                    >
+                                        50
+                    </option>
+</select>,
+                ],
+                "className": "order-form__section",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Packets per Case",
+                  },
+                  "ref": null,
+                  "rendered": "Packets per Case",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value={25}
+>
+                        25
+</option>,
+                      <option
+                        value={50}
+>
+                        50
+</option>,
+                    ],
+                    "id": "packetsPerCase",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "25",
+                        "value": 25,
+                      },
+                      "ref": null,
+                      "rendered": "25",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "50",
+                        "value": 50,
+                      },
+                      "ref": null,
+                      "rendered": "50",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Notes",
+          },
+          "ref": null,
+          "rendered": "Notes",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "notes",
+            "onChange": [Function],
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "textarea",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                id="priority"
+                onChange={[Function]}
+                type="checkbox"
+/>,
+              <label
+                htmlFor="priority"
+>
+                Priority
+</label>,
+            ],
+            "style": Object {
+              "marginBottom": "2rem",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "priority",
+                "onChange": [Function],
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Priority",
+                "htmlFor": "priority",
+              },
+              "ref": null,
+              "rendered": "Priority",
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Submit Work Order",
+          },
+          "ref": null,
+          "rendered": "Submit Work Order",
+          "type": "button",
+        },
+      ],
+      "type": "form",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ariaHideApp": false,
+        "bodyOpenClassName": "ReactModal__Body--open",
+        "children": <form
+          className="order-form__form"
+          onSubmit={[Function]}
+>
+          <div
+                    className="exit"
+                    onClick={[Function]}
+          >
+                    X
+          </div>
+          <div
+                    className="order-form__info"
+          >
+                    Perfectly Ground Work Orders
+          </div>
+          <div
+                    className="order-form__sub-info"
+          >
+                    Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad
+          </div>
+          <div
+                    className="order-form__container"
+          >
+                    <div
+                              className="order-form__section"
+                    >
+                              <label>
+                                        Coffee
+                              </label>
+                              <input
+                                        id="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value=""
+                              />
+                    </div>
+                    <div
+                              className="order-form__section"
+                    >
+                              <label>
+                                        Brew Method
+                              </label>
+                              <select
+                                        id="brewMethod"
+                                        onChange={[Function]}
+                              >
+                                        <option
+                                                  value=""
+                                        >
+                                                  Choose One
+                                        </option>
+                                        <option
+                                                  value="Aeropress"
+                                        >
+                                                  Aeropress
+                                        </option>
+                                        <option
+                                                  value="Coffee Maker"
+                                        >
+                                                  Coffee Maker
+                                        </option>
+                                        <option
+                                                  value="Cold Brew"
+                                        >
+                                                  Cold Brew
+                                        </option>
+                                        <option
+                                                  value="French Press"
+                                        >
+                                                  French Press
+                                        </option>
+                                        <option
+                                                  value="Pour Over"
+                                        >
+                                                  Pour Over
+                                        </option>
+                              </select>
+                    </div>
+          </div>
+          <div
+                    className="order-form__container"
+          >
+                    <div
+                              className="order-form__section"
+                    >
+                              <label>
+                                        Ship Date
+                              </label>
+                              <DayPickerInput
+                                        classNames={
+                                                  Object {
+                                                            "container": "DayPickerInput",
+                                                            "overlay": "DayPickerInput-Overlay",
+                                                            "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                          }
+                                        }
+                                        clickUnselectsDay={false}
+                                        component="input"
+                                        dayPickerProps={Object {}}
+                                        format="L"
+                                        formatDate={[Function]}
+                                        hideOnDayClick={true}
+                                        inputProps={Object {}}
+                                        keepFocus={true}
+                                        onDayChange={[Function]}
+                                        overlayComponent={[Function]}
+                                        parseDate={[Function]}
+                                        placeholder="YYYY-M-D"
+                                        showOverlay={false}
+                                        value={1970-01-01T00:00:00.000Z}
+                              />
+                    </div>
+                    <div
+                              className="order-form__section"
+                    >
+                              <label>
+                                        Number of Cases
+                              </label>
+                              <input
+                                        id="cases"
+                                        onChange={[Function]}
+                                        placeholder="#"
+                                        type="text"
+                                        value=""
+                              />
+                    </div>
+                    <div
+                              className="order-form__section"
+                    >
+                              <label>
+                                        Packets per Case
+                              </label>
+                              <select
+                                        id="packetsPerCase"
+                                        onChange={[Function]}
+                              >
+                                        <option
+                                                  value={25}
+                                        >
+                                                  25
+                                        </option>
+                                        <option
+                                                  value={50}
+                                        >
+                                                  50
+                                        </option>
+                              </select>
+                    </div>
+          </div>
+          <label>
+                    Notes
+          </label>
+          <textarea
+                    id="notes"
+                    onChange={[Function]}
+                    value=""
+          />
+          <div
+                    style={
+                              Object {
+                                        "marginBottom": "2rem",
+                                      }
+                    }
+          >
+                    <input
+                              id="priority"
+                              onChange={[Function]}
+                              type="checkbox"
+                    />
+                    <label
+                              htmlFor="priority"
+                    >
+                              Priority
+                    </label>
+          </div>
+          <button>
+                    Submit Work Order
+          </button>
+</form>,
+        "className": "order-form",
+        "closeTimeoutMS": 300,
+        "contentLabel": "Modal",
+        "isOpen": false,
+        "parentSelector": [Function],
+        "portalClassName": "ReactModalPortal",
+        "shouldCLoseOnOverlayClick": true,
+        "shouldCloseOnEsc": true,
+        "shouldCloseOnOverlayClick": true,
+        "shouldFocusAfterRender": true,
+        "shouldReturnFocusAfterClose": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="exit"
+              onClick={[Function]}
+>
+              X
+</div>,
+            <div
+              className="order-form__info"
+>
+              Perfectly Ground Work Orders
+</div>,
+            <div
+              className="order-form__sub-info"
+>
+              Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad
+</div>,
+            <div
+              className="order-form__container"
+>
+              <div
+                            className="order-form__section"
+              >
+                            <label>
+                                          Coffee
+                            </label>
+                            <input
+                                          id="name"
+                                          onChange={[Function]}
+                                          type="text"
+                                          value=""
+                            />
+              </div>
+              <div
+                            className="order-form__section"
+              >
+                            <label>
+                                          Brew Method
+                            </label>
+                            <select
+                                          id="brewMethod"
+                                          onChange={[Function]}
+                            >
+                                          <option
+                                                        value=""
+                                          >
+                                                        Choose One
+                                          </option>
+                                          <option
+                                                        value="Aeropress"
+                                          >
+                                                        Aeropress
+                                          </option>
+                                          <option
+                                                        value="Coffee Maker"
+                                          >
+                                                        Coffee Maker
+                                          </option>
+                                          <option
+                                                        value="Cold Brew"
+                                          >
+                                                        Cold Brew
+                                          </option>
+                                          <option
+                                                        value="French Press"
+                                          >
+                                                        French Press
+                                          </option>
+                                          <option
+                                                        value="Pour Over"
+                                          >
+                                                        Pour Over
+                                          </option>
+                            </select>
+              </div>
+</div>,
+            <div
+              className="order-form__container"
+>
+              <div
+                            className="order-form__section"
+              >
+                            <label>
+                                          Ship Date
+                            </label>
+                            <DayPickerInput
+                                          classNames={
+                                                        Object {
+                                                                      "container": "DayPickerInput",
+                                                                      "overlay": "DayPickerInput-Overlay",
+                                                                      "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                                    }
+                                          }
+                                          clickUnselectsDay={false}
+                                          component="input"
+                                          dayPickerProps={Object {}}
+                                          format="L"
+                                          formatDate={[Function]}
+                                          hideOnDayClick={true}
+                                          inputProps={Object {}}
+                                          keepFocus={true}
+                                          onDayChange={[Function]}
+                                          overlayComponent={[Function]}
+                                          parseDate={[Function]}
+                                          placeholder="YYYY-M-D"
+                                          showOverlay={false}
+                                          value={1970-01-01T00:00:00.000Z}
+                            />
+              </div>
+              <div
+                            className="order-form__section"
+              >
+                            <label>
+                                          Number of Cases
+                            </label>
+                            <input
+                                          id="cases"
+                                          onChange={[Function]}
+                                          placeholder="#"
+                                          type="text"
+                                          value=""
+                            />
+              </div>
+              <div
+                            className="order-form__section"
+              >
+                            <label>
+                                          Packets per Case
+                            </label>
+                            <select
+                                          id="packetsPerCase"
+                                          onChange={[Function]}
+                            >
+                                          <option
+                                                        value={25}
+                                          >
+                                                        25
+                                          </option>
+                                          <option
+                                                        value={50}
+                                          >
+                                                        50
+                                          </option>
+                            </select>
+              </div>
+</div>,
+            <label>
+              Notes
+</label>,
+            <textarea
+              id="notes"
+              onChange={[Function]}
+              value=""
+/>,
+            <div
+              style={
+                            Object {
+                                          "marginBottom": "2rem",
+                                        }
+              }
+>
+              <input
+                            id="priority"
+                            onChange={[Function]}
+                            type="checkbox"
+              />
+              <label
+                            htmlFor="priority"
+              >
+                            Priority
+              </label>
+</div>,
+            <button>
+              Submit Work Order
+</button>,
+          ],
+          "className": "order-form__form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "X",
+              "className": "exit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "X",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Perfectly Ground Work Orders",
+              "className": "order-form__info",
+            },
+            "ref": null,
+            "rendered": "Perfectly Ground Work Orders",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad",
+              "className": "order-form__sub-info",
+            },
+            "ref": null,
+            "rendered": "Instructional Text would go here - Lorem Ipsum dolor sit amet, consectetur ad Ipsum dolor sit amet, consectetur ad",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="order-form__section"
+>
+                  <label>
+                                    Coffee
+                  </label>
+                  <input
+                                    id="name"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value=""
+                  />
+</div>,
+                <div
+                  className="order-form__section"
+>
+                  <label>
+                                    Brew Method
+                  </label>
+                  <select
+                                    id="brewMethod"
+                                    onChange={[Function]}
+                  >
+                                    <option
+                                                      value=""
+                                    >
+                                                      Choose One
+                                    </option>
+                                    <option
+                                                      value="Aeropress"
+                                    >
+                                                      Aeropress
+                                    </option>
+                                    <option
+                                                      value="Coffee Maker"
+                                    >
+                                                      Coffee Maker
+                                    </option>
+                                    <option
+                                                      value="Cold Brew"
+                                    >
+                                                      Cold Brew
+                                    </option>
+                                    <option
+                                                      value="French Press"
+                                    >
+                                                      French Press
+                                    </option>
+                                    <option
+                                                      value="Pour Over"
+                                    >
+                                                      Pour Over
+                                    </option>
+                  </select>
+</div>,
+              ],
+              "className": "order-form__container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Coffee
+</label>,
+                    <input
+                      id="name"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+/>,
+                  ],
+                  "className": "order-form__section",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Coffee",
+                    },
+                    "ref": null,
+                    "rendered": "Coffee",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "name",
+                      "onChange": [Function],
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Brew Method
+</label>,
+                    <select
+                      id="brewMethod"
+                      onChange={[Function]}
+>
+                      <option
+                                            value=""
+                      >
+                                            Choose One
+                      </option>
+                      <option
+                                            value="Aeropress"
+                      >
+                                            Aeropress
+                      </option>
+                      <option
+                                            value="Coffee Maker"
+                      >
+                                            Coffee Maker
+                      </option>
+                      <option
+                                            value="Cold Brew"
+                      >
+                                            Cold Brew
+                      </option>
+                      <option
+                                            value="French Press"
+                      >
+                                            French Press
+                      </option>
+                      <option
+                                            value="Pour Over"
+                      >
+                                            Pour Over
+                      </option>
+</select>,
+                  ],
+                  "className": "order-form__section",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Brew Method",
+                    },
+                    "ref": null,
+                    "rendered": "Brew Method",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <option
+                          value=""
+>
+                          Choose One
+</option>,
+                        <option
+                          value="Aeropress"
+>
+                          Aeropress
+</option>,
+                        <option
+                          value="Coffee Maker"
+>
+                          Coffee Maker
+</option>,
+                        <option
+                          value="Cold Brew"
+>
+                          Cold Brew
+</option>,
+                        <option
+                          value="French Press"
+>
+                          French Press
+</option>,
+                        <option
+                          value="Pour Over"
+>
+                          Pour Over
+</option>,
+                      ],
+                      "id": "brewMethod",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Choose One",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": "Choose One",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Aeropress",
+                          "value": "Aeropress",
+                        },
+                        "ref": null,
+                        "rendered": "Aeropress",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Coffee Maker",
+                          "value": "Coffee Maker",
+                        },
+                        "ref": null,
+                        "rendered": "Coffee Maker",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Cold Brew",
+                          "value": "Cold Brew",
+                        },
+                        "ref": null,
+                        "rendered": "Cold Brew",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "French Press",
+                          "value": "French Press",
+                        },
+                        "ref": null,
+                        "rendered": "French Press",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Pour Over",
+                          "value": "Pour Over",
+                        },
+                        "ref": null,
+                        "rendered": "Pour Over",
+                        "type": "option",
+                      },
+                    ],
+                    "type": "select",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="order-form__section"
+>
+                  <label>
+                                    Ship Date
+                  </label>
+                  <DayPickerInput
+                                    classNames={
+                                                      Object {
+                                                                        "container": "DayPickerInput",
+                                                                        "overlay": "DayPickerInput-Overlay",
+                                                                        "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                                      }
+                                    }
+                                    clickUnselectsDay={false}
+                                    component="input"
+                                    dayPickerProps={Object {}}
+                                    format="L"
+                                    formatDate={[Function]}
+                                    hideOnDayClick={true}
+                                    inputProps={Object {}}
+                                    keepFocus={true}
+                                    onDayChange={[Function]}
+                                    overlayComponent={[Function]}
+                                    parseDate={[Function]}
+                                    placeholder="YYYY-M-D"
+                                    showOverlay={false}
+                                    value={1970-01-01T00:00:00.000Z}
+                  />
+</div>,
+                <div
+                  className="order-form__section"
+>
+                  <label>
+                                    Number of Cases
+                  </label>
+                  <input
+                                    id="cases"
+                                    onChange={[Function]}
+                                    placeholder="#"
+                                    type="text"
+                                    value=""
+                  />
+</div>,
+                <div
+                  className="order-form__section"
+>
+                  <label>
+                                    Packets per Case
+                  </label>
+                  <select
+                                    id="packetsPerCase"
+                                    onChange={[Function]}
+                  >
+                                    <option
+                                                      value={25}
+                                    >
+                                                      25
+                                    </option>
+                                    <option
+                                                      value={50}
+                                    >
+                                                      50
+                                    </option>
+                  </select>
+</div>,
+              ],
+              "className": "order-form__container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Ship Date
+</label>,
+                    <DayPickerInput
+                      classNames={
+                                            Object {
+                                                                  "container": "DayPickerInput",
+                                                                  "overlay": "DayPickerInput-Overlay",
+                                                                  "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                                                                }
+                      }
+                      clickUnselectsDay={false}
+                      component="input"
+                      dayPickerProps={Object {}}
+                      format="L"
+                      formatDate={[Function]}
+                      hideOnDayClick={true}
+                      inputProps={Object {}}
+                      keepFocus={true}
+                      onDayChange={[Function]}
+                      overlayComponent={[Function]}
+                      parseDate={[Function]}
+                      placeholder="YYYY-M-D"
+                      showOverlay={false}
+                      value={1970-01-01T00:00:00.000Z}
+/>,
+                  ],
+                  "className": "order-form__section",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ship Date",
+                    },
+                    "ref": null,
+                    "rendered": "Ship Date",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "classNames": Object {
+                        "container": "DayPickerInput",
+                        "overlay": "DayPickerInput-Overlay",
+                        "overlayWrapper": "DayPickerInput-OverlayWrapper",
+                      },
+                      "clickUnselectsDay": false,
+                      "component": "input",
+                      "dayPickerProps": Object {},
+                      "format": "L",
+                      "formatDate": [Function],
+                      "hideOnDayClick": true,
+                      "inputProps": Object {},
+                      "keepFocus": true,
+                      "onDayChange": [Function],
+                      "overlayComponent": [Function],
+                      "parseDate": [Function],
+                      "placeholder": "YYYY-M-D",
+                      "showOverlay": false,
+                      "value": 1970-01-01T00:00:00.000Z,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Number of Cases
+</label>,
+                    <input
+                      id="cases"
+                      onChange={[Function]}
+                      placeholder="#"
+                      type="text"
+                      value=""
+/>,
+                  ],
+                  "className": "order-form__section",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Number of Cases",
+                    },
+                    "ref": null,
+                    "rendered": "Number of Cases",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "cases",
+                      "onChange": [Function],
+                      "placeholder": "#",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label>
+                      Packets per Case
+</label>,
+                    <select
+                      id="packetsPerCase"
+                      onChange={[Function]}
+>
+                      <option
+                                            value={25}
+                      >
+                                            25
+                      </option>
+                      <option
+                                            value={50}
+                      >
+                                            50
+                      </option>
+</select>,
+                  ],
+                  "className": "order-form__section",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Packets per Case",
+                    },
+                    "ref": null,
+                    "rendered": "Packets per Case",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <option
+                          value={25}
+>
+                          25
+</option>,
+                        <option
+                          value={50}
+>
+                          50
+</option>,
+                      ],
+                      "id": "packetsPerCase",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "25",
+                          "value": 25,
+                        },
+                        "ref": null,
+                        "rendered": "25",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "50",
+                          "value": 50,
+                        },
+                        "ref": null,
+                        "rendered": "50",
+                        "type": "option",
+                      },
+                    ],
+                    "type": "select",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Notes",
+            },
+            "ref": null,
+            "rendered": "Notes",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "notes",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  id="priority"
+                  onChange={[Function]}
+                  type="checkbox"
+/>,
+                <label
+                  htmlFor="priority"
+>
+                  Priority
+</label>,
+              ],
+              "style": Object {
+                "marginBottom": "2rem",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "id": "priority",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Priority",
+                  "htmlFor": "priority",
+                },
+                "ref": null,
+                "rendered": "Priority",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit Work Order",
+            },
+            "ref": null,
+            "rendered": "Submit Work Order",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,5 +1,3 @@
-import { addPage } from './pages'; 
-
 export const setPage = (index, orders) => ({
     type: 'SET_PAGE',
     index,
