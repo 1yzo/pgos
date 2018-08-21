@@ -26,8 +26,18 @@ export class CreateOrderForm extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const order = this.state;
-        if (this.state.name && this.state.brewMethod && this.state.shipDate && this.state.cases && this.state.packetsPerCase) {
-            this.props.submitOrder(order, this.props.currentPageIndex, this.props.pageCount);
+        if (this.state.name && this.state.brewMethod && this.state.shipDate && this.state.cases &&
+            this.state.packetsPerCase && !isNaN(Number(this.state.cases))) {
+            this.props.submitOrder(order, this.props.currentPageIndex)
+            this.setState(() => ({
+                name: '',
+                brewMethod: '',
+                shipDate: moment().toDate(),
+                cases: '',
+                packetsPerCase: 25,
+                notes: '',
+                priority: false
+            }));
         } 
     }
 
@@ -123,7 +133,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch, props) => ({
-    submitOrder: (order, currentPageIndex, pageCount) => {
+    submitOrder: (order, currentPageIndex) => {
         fetch('/orders/', {
             method: 'POST',
             body: JSON.stringify({ ...order, shipDate: moment(order.shipDate).valueOf() }),
@@ -133,8 +143,7 @@ const mapDispatchToProps = (dispatch, props) => ({
                 dispatch(startSetPageCount()); 
             })
             .then(() => {
-                dispatch(startSetPage(currentPageIndex))
-                    .then(() => props.closeModal());
+                dispatch(startSetPage(currentPageIndex)).then(() => props.closeModal());
             });
     }
 });
